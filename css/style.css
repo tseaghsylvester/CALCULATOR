@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+}
+
+body {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 200px 0px ;
+    justify-content: center;
+    align-items: center;
+    background:purple;
+}
+.calc {
+    width: 300px;
+    background: red;
+    color: white;
+    padding:  20px;
+}
+.calc .item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 10px;
+}
+.calc .output {
+    background: #060606;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+input,
+select {
+    border: 3px solid #030303;
+    border-radius: 7px;
+    padding: 5px;
+    outline:  none;
+    
+}
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 8px;
+    background: #909090;
+    border-radius: 5px;
+    border: none;
+}
